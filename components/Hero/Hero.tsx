@@ -8,6 +8,7 @@ export default function Hero() {
         <Wrapper>
             <div className={classes.container}>
                 <div className={classes.content}>
+                    {/* <Image src='/images/logo.png' width={1350} height={800} alt='hero backround' className={classes.heroBg} /> */}
                     <h1>Young Birds Club 10X Your Dreams</h1>
                     <p>Your real life networking NFT membership that will 10X your dreams</p>
                     <Button text='JOIN THE CONVERSATION' style={classes.joinBtn} />

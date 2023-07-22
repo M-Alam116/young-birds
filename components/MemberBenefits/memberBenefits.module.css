@@ -1,0 +1,148 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 12rem;
+}
+
+.container h1 {
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.container h3 {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 5.5rem 0;
+}
+
+.serviceContainer {
+  display: flex;
+  justify-content: center;
+  gap: 5.5rem;
+}
+
+.service1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.service1 h2 {
+  font-family: "Inter";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(0, 255, 255, 1);
+  margin-top: 1.5rem;
+}
+
+.service1 p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(126, 143, 154, 1);
+  margin-top: 1.3rem;
+}
+
+.service2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.service2 h2 {
+  font-family: "Inter";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 255, 255, 1);
+  margin-top: 1.5rem;
+}
+
+.service2 p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(126, 143, 154, 1);
+  margin-top: 1.3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .service1 {
+    width: 100%;
+  }
+
+  .service2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    margin-top: 8rem;
+  }
+
+  .serviceContainer {
+    flex-direction: column;
+  }
+
+  .service1 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service1 h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .service1 p {
+    text-align: center;
+  }
+
+  .service2 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service2 h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .service2 p {
+    text-align: center;
+  }
+
+  .container h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+}

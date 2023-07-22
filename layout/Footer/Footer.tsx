@@ -12,7 +12,9 @@ export default function Footer() {
       <div className={classes.footer}>
         <div className={classes.footerTop}>
           <div>
-            <Image src='/images/logo.png' width={191} height={100} alt='logo' className={classes.logo} />
+            <Link href='/'>
+              <Image src='/images/logo.png' width={191} height={100} alt='logo' className={classes.logo} />
+            </Link>
           </div>
 
           <div className={classes.content}>

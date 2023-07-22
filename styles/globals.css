@@ -9,4 +9,5 @@
 body {
   font-family: "Inter";
   background: rgba(27, 26, 31, 1);
+  scroll-behavior: smooth;
 }

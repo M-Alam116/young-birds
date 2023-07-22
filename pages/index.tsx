@@ -1,4 +1,9 @@
+import Collaborate from '@/components/Collaborate/Collaborate'
+import CommonGoals from '@/components/CommonGoals/CommonGoals'
 import Hero from '@/components/Hero/Hero'
+import MemberBenefits from '@/components/MemberBenefits/MemberBenefits'
+import MemberRewards from '@/components/MemberRewards/MemberRewards'
+import Minting from '@/components/Minting/Minting'
 import Head from 'next/head'
 import { Fragment } from 'react'
 
@@ -12,6 +17,11 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <Minting />
+      <CommonGoals />
+      <MemberBenefits />
+      <MemberRewards />
+      <Collaborate />
     </Fragment>
   )
 }
