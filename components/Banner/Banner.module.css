@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 12rem;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1050px;
+    background: linear-gradient(93deg, #2476FF 5.22%, #233356 97.51%);
+    border-radius: 26px;
+    gap: 3rem;
+    padding: 3rem;
+  }
+  
+  .banner p {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    width: 45%;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+  }
+  
+  
+  @media screen and (max-width: 670px) {
+    .container {
+      margin-top: 8rem;
+    }
+
+    .banner {
+      flex-direction: column;
+    }
+
+    .banner p {
+      width: 100%;
+      font-size: 22px;
+    }
+  }
+    
+  @media screen and (max-width: 500px) {
+    .banner {
+      padding: 2rem;
+    }
+  }

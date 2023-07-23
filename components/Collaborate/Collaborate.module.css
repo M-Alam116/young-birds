@@ -5,26 +5,30 @@
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+  margin-top: 12rem;
+  margin-bottom: 6rem;
 }
 
 .container h1 {
   font-family: "Inter";
   font-size: 60px;
   font-weight: 700;
-  line-height: 96px;
   letter-spacing: 0px;
   text-align: center;
   color: white;
+  margin-bottom: 5px;
 }
 
 .container h3 {
   font-family: "Inter";
   font-size: 20px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 34px;
   letter-spacing: 0em;
   text-align: center;
   color: white;
+  width: 70%;
+  margin-bottom: 1rem;
 }
 
 .btn {
@@ -39,6 +43,7 @@
   text-align: center;
   border-radius: 22px;
   border: none;
+  cursor: pointer;
 }
 
 .contact {
@@ -47,7 +52,8 @@
   border: 1px solid rgba(36, 118, 255, 1);
   border-radius: 20px;
   width: 70%;
-  padding: 2rem;
+  padding: 3.2rem 5rem 3.5rem 2.4rem;
+  margin: 3rem 0;
 }
 
 .content {
@@ -59,10 +65,11 @@
   font-family: "Inter";
   font-size: 30px;
   font-weight: 600;
-  line-height: 96px;
+  margin-bottom: 0.7rem;
   letter-spacing: 0px;
   text-align: center;
   color: rgba(0, 255, 255, 1);
+  text-align: left;
 }
 
 .info {
@@ -80,4 +87,63 @@
   letter-spacing: 0em;
   text-align: left;
   color: rgba(126, 143, 154, 1);
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    text-align: center;
+    background: rgb(45, 44, 51);
+    padding: 3rem;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.popupClose {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 950px) {
+  .container h3 {
+   width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    margin-top: 8rem;
+  }
+  
+  .container h1 {
+    font-size: 40px;
+  }
+
+  .container h3 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 2rem;
+  }
+
+  .contact {
+    padding: 2rem 1rem;
+  }
 }

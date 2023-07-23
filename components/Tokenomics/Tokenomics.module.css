@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 12rem;
+}
+
+.container h1 {
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.container p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
+
+.chart {
+    color: white;
+    font-size: 70px;
+    margin: 4rem 0;
+}
+
+.btn {
+  background: linear-gradient(92.89deg, #cfc3cd 0%, #8b52f5 100%);
+  padding: 0 24px;
+  color: white;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+}

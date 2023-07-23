@@ -4,10 +4,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Inter";
   background: rgba(27, 26, 31, 1);
-  scroll-behavior: smooth;
 }

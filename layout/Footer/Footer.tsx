@@ -21,19 +21,30 @@ export default function Footer() {
             <p>Did we miss anything?<br></br>
               Please ask us on any of our official channels.</p>
             <div className={classes.icons}>
-              <FaTwitterSquare style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
-              <BsTelegram style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
-              <BsDiscord style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
-              <HiDocumentText style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
+              <Link href='https://twitter.com/youngbirdsclub' target='_'>
+                <FaTwitterSquare style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
+              </Link>
+
+              <Link href='https://t.me/youngbirdsclub_official' target='_'>
+                <BsTelegram style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
+              </Link>
+
+              <Link href='https://discord.com/invite/Wqaa9a8ux8' target='_'>
+                <BsDiscord style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
+              </Link>
+
+              <Link href='https://docs.youngbirdsclub.com/ybc/' target='_'>
+                <HiDocumentText style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }} />
+              </Link>
             </div>
           </div>
 
           <div className={classes.links}>
             <Link href="/" className={classes.singleLink}>Home</Link>
-            <Link href="/" className={classes.singleLink}>Benefits & Rewards</Link>
-            <Link href="/" className={classes.singleLink}>$SOAR</Link>
-            <Link href="/" className={classes.singleLink}>Roadmap</Link>
-            <Link href="/" className={classes.singleLink}>Contact</Link>
+            <Link href="#benefits" className={classes.singleLink}>Benefits & Rewards</Link>
+            <Link href="#soar" className={classes.singleLink}>$SOAR</Link>
+            <Link href="#roadmap" className={classes.singleLink}>Roadmap</Link>
+            <Link href="#contact" className={classes.singleLink}>Contact</Link>
           </div>
         </div>
 

@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function MemberBenefits() {
     return (
         <Wrapper>
-            <div className={classes.container}>
+            <div className={classes.container} id='benefits'>
                 <h1>Member Benefits</h1>
                 <h3>Incomparable benefits to 10X your dreams</h3>
                 <div className={classes.benefits}>

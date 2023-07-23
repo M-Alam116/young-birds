@@ -2,6 +2,7 @@ import classes from './minting.module.css'
 import Wrapper from '../common/wrapper/wrapper'
 import Button from '../common/Button/Button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Minting() {
     return (
@@ -17,7 +18,9 @@ export default function Minting() {
                     </div>
                     <p>1 YBC unlocks the YBC universe.<br></br>
                         More YBCs mean more benefits and $SOAR rewards.</p>
-                    <Button text='YBC Litepaper' style={classes.btn} />
+                    <Link href='https://docs.youngbirdsclub.com/ybc/' target='_'>
+                        <Button text='YBC Litepaper' style={classes.btn} />
+                    </Link>
                     <div className={classes.minted}>
                         <div className={classes.mintedDetail}>
                             <h3>5% minted</h3>
