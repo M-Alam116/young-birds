@@ -2,6 +2,7 @@ import classes from './memberRewards.module.css'
 import Wrapper from '../common/wrapper/wrapper'
 import Button from '../common/Button/Button'
 import Image from 'next/image'
+import Link from 'next/link'
 export default function MemberRewards() {
     return (
         <Wrapper>
@@ -39,7 +40,9 @@ export default function MemberRewards() {
                         <p>Get excited for the surprise.</p>
                     </div>
                 </div>
+                <Link href="https://docs.youngbirdsclub.com/ybc/young-birds-club/or-member-rewards" target='_'>
                 <Button text='See Docs for details' style={classes.btn} />
+                </Link>
             </div>
         </Wrapper>
     )

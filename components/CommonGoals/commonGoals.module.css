@@ -76,8 +76,9 @@
   font-weight: 400;
   text-align: center;
   color: white;
+  background: rgba(27, 26, 31, 1);
   position: absolute;
-  top: 0;
+  top: -12px;
   left: 7px;
   z-index: 1;
 }
@@ -88,10 +89,13 @@
   font-weight: 400;
   text-align: center;
   color: white;
+  background: rgba(27, 26, 31, 1);
   position: absolute;
-  top: 0;
+  top: -12px;
   left: 22px;
+  z-index: 1;
 }
+
 
 @media only screen and (max-width: 1135px) {
   .container {

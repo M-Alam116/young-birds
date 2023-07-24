@@ -31,7 +31,7 @@
 .rewardsContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0;
+  gap: 10px;
   align-items: start;
   margin: 4.5rem 0;
 }
@@ -42,6 +42,7 @@
   justify-content: center;
   align-items: center;
   margin: 2rem 0;
+  max-width: 16rem;
 }
 
 .rewards h2 {
@@ -70,6 +71,8 @@
   border-radius: 50%;
   border: 1px solid rgba(0, 255, 255, 1);
   padding: 1.3rem;
+  background: rgb(32, 73, 146);
+  box-shadow: 0px 0px 100px 25px rgba(36, 118, 255, 1);
 }
 
 .btn {

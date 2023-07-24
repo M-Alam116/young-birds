@@ -1,6 +1,8 @@
 import classes from './Tokenomics.module.css'
 import Wrapper from '../common/wrapper/wrapper'
 import Button from '../common/Button/Button'
+import PieChart from '../PieChart/PieChart'
+import Link from 'next/link'
 
 export default function Tokenomics() {
     return (
@@ -9,10 +11,26 @@ export default function Tokenomics() {
                 <h1>$SOAR Tokenomics</h1>
                 <p>100,000,000,000 $SOAR</p>
                 <div className={classes.chart}>
-                    Chart....
+                    {/* <PieChart /> */}
+
+                    <div className={classes.content}>
+                        <div>
+                            <h2>Total Supply</h2>
+                            <h2>Ticker</h2>
+                            <h2>Chain</h2>
+                        </div>
+                        <div>
+                            <h3>100 Billion</h3>
+                            <h3>$SOAR</h3>
+                            <h3>Ethereum</h3>
+                        </div>
+                    </div>
+
                 </div>
-                <Button text='$SOAR Litepaper' style={classes.btn}/>
+                <Link href='https://docs.youngbirdsclub.com/ybc/usdsoar-token/or-what-is-usdsoar' target='_'>
+                    <Button text='$SOAR Litepaper' style={classes.btn} />
+                </Link>
             </div>
-        </Wrapper>
+        </Wrapper >
     )
 }

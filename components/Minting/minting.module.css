@@ -175,18 +175,17 @@
 }
 
 .heroImage {
-    box-shadow: 0px 36px 46px 0px rgba(0, 255, 255, 0.09);
-    margin-top: 5.3rem;
-    border-radius: 15px;
-    transform: rotate(-30deg);
-  }
-  
-  .image {
-    width: 100%; 
-    max-width: 460px; 
-    height: auto; 
-  }
-  
+  box-shadow: 0px 36px 46px 0px rgba(0, 255, 255, 0.09);
+  margin-top: 5.3rem;
+  border-radius: 15px;
+  transform: rotate(-30deg);
+}
+
+.image {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+}
 
 @media only screen and (max-width: 1135px) {
   .container {
@@ -198,6 +197,17 @@
     width: 100%;
     padding: 0 20px;
     margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .minted {
+    width: 30rem;
+  }
+
+  .batches {
+    width: 30rem;
   }
 
   .heroImage {
@@ -216,5 +226,17 @@
 
   .heading h1 {
     margin-bottom: 2rem;
+  }
+
+  .minting {
+    align-items: start;
+  }
+
+  .minted {
+    width: 100%;
+  }
+
+  .batches {
+    width: 100%;
   }
 }

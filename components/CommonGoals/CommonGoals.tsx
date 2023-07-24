@@ -13,7 +13,8 @@ export default function CommonGoals() {
                         <span>Countries</span>
                         10
                     </div>
-                    <div className={classes.city}><span>Cities</span>
+                    <div className={classes.city}>
+                        <span>Cities</span>
                         13</div>
                 </div>
                 <Image src='/images/group.png' width={960} height={570} alt='group' className={classes.image} />

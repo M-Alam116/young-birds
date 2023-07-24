@@ -44,7 +44,6 @@
   gap: 1rem;
   width: 90%;
   justify-items: center;
-  margin-top: 6rem;
   margin-bottom: 3rem;
 }
 
@@ -52,8 +51,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
   max-width: 300px;
+  position: relative;
 }
 
 .details h1 {
@@ -62,6 +61,7 @@
   font-weight: 400;
   text-align: center;
   color: white;
+  margin-top: 6.5rem;
 }
 
 .details p {
@@ -71,6 +71,16 @@
   text-align: center;
   color: rgba(126, 143, 154, 1);
   width: fit-content;
+}
+
+.gradientImg {
+  position: absolute; 
+  top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: -1;
+  width: 380px;
+  height: 320px;
 }
 
 @media screen and (max-width: 710px) {
@@ -95,3 +105,4 @@
     font-size: 70px;
   }
 }
+

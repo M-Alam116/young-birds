@@ -51,8 +51,8 @@ export default function Navbar() {
         </div>
         {hamburger ? <GiHamburgerMenu onClick={toggleHamburger} className={classes.hamburger} /> :
           <RxCross1 onClick={toggleHamburger} className={classes.hamburger} />}
+        <hr style={{ border: '1px solid rgba(255, 255, 255, 0.16)', position: 'absolute', bottom: '0px', right: '0px', width: '100%' }}></hr>
       </div>
-      <hr style={{ border: '1px solid gray' }}></hr>
     </Wrapper>
   )
 }
