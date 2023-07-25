@@ -47,6 +47,11 @@
     .banner p {
       width: 100%;
       font-size: 22px;
+      text-align: center;
+    }
+
+    .image {
+     width: 60%;
     }
   }
     

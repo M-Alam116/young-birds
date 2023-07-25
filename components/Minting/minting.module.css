@@ -175,13 +175,13 @@
 }
 
 .heroImage {
-  box-shadow: 0px 36px 46px 0px rgba(0, 255, 255, 0.09);
   margin-top: 5.3rem;
-  border-radius: 15px;
   transform: rotate(-30deg);
 }
 
 .image {
+  border-radius: 20px;
+  box-shadow: 0px 36px 46px 0px rgba(0, 255, 255, 0.09);
   width: 100%;
   max-width: 460px;
   height: auto;
@@ -189,7 +189,7 @@
 
 @media only screen and (max-width: 1135px) {
   .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
   }
 
@@ -212,7 +212,7 @@
 
   .heroImage {
     margin: 3rem 0;
-    padding: 0 2rem;
+    padding: 0 1.7rem;
     transform: rotate(0deg);
   }
 }

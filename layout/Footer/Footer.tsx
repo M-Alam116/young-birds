@@ -9,7 +9,7 @@ import { HiDocumentText } from 'react-icons/hi'
 export default function Footer() {
   return (
     <Wrapper>
-      <div className={classes.footer}>
+      <div className={classes.footer} id='contact'>
         <div className={classes.footerTop}>
           <div>
             <Link href='/'>

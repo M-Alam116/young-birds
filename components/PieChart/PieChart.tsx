@@ -15,8 +15,8 @@ const data = [
 
 export default function App() {
   return (
-    <div style={{ width: "65%", height: '30rem'}}>
-    <ResponsiveContainer >
+    <div style={{width: '100%', height: '30rem'}}>
+    <ResponsiveContainer width={"99%"}>
     <PieChart >
       <Pie
         dataKey="y"

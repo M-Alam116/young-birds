@@ -1,7 +1,7 @@
 import classes from './Tokenomics.module.css'
 import Wrapper from '../common/wrapper/wrapper'
 import Button from '../common/Button/Button'
-import PieChart from '../PieChart/PieChart'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Tokenomics() {
@@ -11,7 +11,7 @@ export default function Tokenomics() {
                 <h1>$SOAR Tokenomics</h1>
                 <p>100,000,000,000 $SOAR</p>
                 <div className={classes.chart}>
-                    <PieChart />
+                    <Image src='/images/soar.png' width={800} height={420} alt='Soar' className={classes.img} />
                     <div className={classes.content}>
                         <div>
                             <h2>Total Supply</h2>

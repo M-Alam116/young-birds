@@ -10,19 +10,23 @@ export default function MemberBenefits() {
                 <div className={classes.benefits}>
                     <div className={classes.serviceContainer}>
                         <div className={classes.service1}>
-                            <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '1rem' }}>
-                                <Image src='/images/networking.png' width={60} height={60} alt="networking" />
+                            <div className={classes.top}>
+                                <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '1rem' }}>
+                                    <Image src='/images/networking.png' width={60} height={60} alt="networking" />
+                                </div>
+                                <h2>Networking via YBC Concierge Service</h2>
                             </div>
-                            <h2>Networking via YBC Concierge Service</h2>
                             <p>
                                 Meet like-minded entrepreneurs, investors, and industry experts from all around the world. On average, 70% of YBC members received help from the YBC network.
                             </p>
                         </div>
                         <div className={classes.service2}>
-                            <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '1rem' }}>
-                                <Image src='/images/event.png' width={60} height={60} alt="event" />
+                            <div className={classes.bottom}>
+                                <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '1rem' }}>
+                                    <Image src='/images/event.png' width={60} height={60} alt="event" />
+                                </div>
+                                <h2 className={classes.text}>Access to Exclusive Events</h2>
                             </div>
-                            <h2>Access to Exclusive Events</h2>
                             <p>
                                 Attend YBC parties, side events at major
                                 Web3 conferences and more.
@@ -32,21 +36,25 @@ export default function MemberBenefits() {
 
                     <div className={classes.serviceContainer}>
                         <div className={classes.service1}>
-                            <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '1rem' }}>
-                                <Image src='/images/groupchat.png' width={60} height={60} alt="group chat" />
+                            <div className={classes.top}>
+                                <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '1rem' }}>
+                                    <Image src='/images/groupchat.png' width={60} height={60} alt="group chat" />
+                                </div>
+                                <h2>Access to Private
+                                    Telegram Groupchat</h2>
                             </div>
-                            <h2>Access to Private
-                                Telegram Groupchat</h2>
                             <p>
                                 Join the private YBC Telegram group chat
                                 for verified members.
                             </p>
                         </div>
                         <div className={classes.service2}>
-                            <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '0.6rem 1rem' }}>
-                                <Image src='/images/recognition.png' width={60} height={75} alt="recognition" />
+                            <div className={classes.bottom}>
+                                <div style={{ border: '2px solid rgba(36, 118, 255, 1)', borderRadius: '6px', padding: '0.6rem 1rem' }}>
+                                    <Image src='/images/recognition.png' width={60} height={75} alt="recognition" />
+                                </div>
+                                <h2>Business & Individual Recognition</h2>
                             </div>
-                            <h2>Business & Individual Recognition</h2>
                             <p>
                                 Seize opportunities to promote your business and yourself to YBC members and networks.
                             </p>

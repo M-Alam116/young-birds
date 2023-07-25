@@ -68,7 +68,7 @@
   }
 
   .footerTop {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -79,6 +79,10 @@
   }
 
   .content p {
+    text-align: center;
+  }
+
+  .singleLink {
     text-align: center;
   }
 }

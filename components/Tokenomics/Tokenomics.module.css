@@ -5,7 +5,8 @@
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  margin-top: 12rem;
+  margin-top: 5rem;
+  padding-top: 7rem;
 }
 
 .container h1 {
@@ -60,6 +61,10 @@
   margin: 12px 0;
 }
 
+.img {
+  max-width: 100%;
+  height: auto;
+}
 
 .btn {
   background: linear-gradient(92.89deg, #cfc3cd 0%, #8b52f5 100%);
@@ -79,10 +84,14 @@
 
 @media only screen and (max-width: 617px) {
   .container {
-      margin-top: 8rem;
+      margin-top: 1rem;
   }
 
   .container h1 {
-      font-size: 40px;
+      font-size: 30px;
+  }
+
+  .container p {
+    font-size: 18px;
   }
 }

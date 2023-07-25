@@ -13,7 +13,7 @@ export default function Collaborate() {
 
     return (
         <Wrapper>
-            <div className={classes.container} id='contact'>
+            <div className={classes.container}>
                 <h1>Find & Collaborate</h1>
                 <h3>Members can search and contact other YBC members or Businesses owned by members near you.
                     To be available in Q3 2023.</h3>

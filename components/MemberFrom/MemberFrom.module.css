@@ -21,7 +21,7 @@
   font-family: "Inter";
   font-size: 20px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 25px;
   letter-spacing: 0em;
   text-align: center;
   color: white;
@@ -89,7 +89,7 @@
   }
 
   .container h1 {
-    font-size: 40px;
+    font-size: 28px;
   }
 
   .container h3 {
@@ -98,11 +98,20 @@
 
   .container p {
     width: 100%;
-    text-align: left;
+  }
+
+  .detailsContainer {
+    gap: 0;
+  }
+
+  .gradientImg {
+    width: 250px;
+    height: 200px;
   }
 
   .details h1 {
-    font-size: 70px;
+    font-size: 50px;
+    margin-top: 3.5rem;
   }
 }
 

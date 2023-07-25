@@ -4,7 +4,8 @@
   flex-direction: column;
   align-items: center;
   padding: 0 20px;
-  margin-top: 12rem;
+  margin-top: 5rem;
+  padding-top: 7rem;
 }
 
 .container h1 {
@@ -47,11 +48,12 @@
   font-family: "Inter";
   font-size: 35px;
   font-weight: 500;
-  line-height: 38px;
+  /* line-height: 38px; */
   letter-spacing: 0em;
   text-align: right;
   color: rgba(0, 255, 255, 1);
-  margin-top: 1.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .service1 p {
@@ -76,11 +78,12 @@
   font-family: "Inter";
   font-size: 35px;
   font-weight: 500;
-  line-height: 38px;
+  /* line-height: 38px; */
   letter-spacing: 0em;
   text-align: left;
   color: rgba(0, 255, 255, 1);
-  margin-top: 1.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .service2 p {
@@ -94,6 +97,24 @@
   margin-top: 1.3rem;
 }
 
+.top {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: end;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: start;
+}
+
+.text {
+  width: 78%;
+}
+
 @media only screen and (max-width: 1000px) {
   .service1 {
     width: 100%;
@@ -102,15 +123,24 @@
   .service2 {
     width: 100%;
   }
+
+  .text {
+    width: 100%;
+    text-align: right;
+  }
 }
 
 @media only screen and (max-width: 700px) {
   .container {
-    margin-top: 8rem;
+    margin-top: 1rem;
   }
 
   .serviceContainer {
     flex-direction: column;
+  }
+
+  .serviceContainer {
+    gap: 2rem;
   }
 
   .service1 {
@@ -120,7 +150,7 @@
 
   .service1 h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .service1 p {
@@ -134,7 +164,7 @@
 
   .service2 h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .service2 p {
@@ -142,7 +172,25 @@
   }
 
   .container h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 5px;
+  }
+
+  .container h3 {
+    font-size: 18px;
+  }
+
+  .top {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .bottom {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
   }
 }

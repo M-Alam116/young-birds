@@ -59,13 +59,14 @@
 }
 
 .heroImage {
-  box-shadow: 0px 36px 46px 0px rgba(0, 255, 255, 0.09);
   margin-top: 5.3rem;
 }
 
 .image {
   width: 400px;
   height: 250px;
+  box-shadow: 0px 36px 46px 0px rgba(0, 255, 255, 0.09);
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 850px) {
