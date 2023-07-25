@@ -15,7 +15,7 @@ const data = [
 
 export default function App() {
   return (
-    <div style={{ width: "60%", height: '30rem'}}>
+    <div style={{ width: "65%", height: '30rem'}}>
     <ResponsiveContainer >
     <PieChart >
       <Pie
@@ -37,7 +37,7 @@ export default function App() {
             <text
               x={x}
               y={y}
-              fill={"cyan"} // Set different colors for outside labels (e.g., "black" for the first label, "white" for the rest)
+              fill={"rgba(0, 255, 255, 1)"}
               textAnchor={x > cx ? "start" : "end"}
               dominantBaseline="central"
             >
