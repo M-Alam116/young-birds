@@ -23,8 +23,8 @@ export default function Minting() {
                     </Link>
                     <div className={classes.minted}>
                         <div className={classes.mintedDetail}>
-                            <h3>5% minted</h3>
-                            <p>15 / 300</p>
+                            <h3>0% minted</h3>
+                            <p>0 / 300</p>
                         </div>
                         <div className={classes.mintedBar}>
                             <div></div>

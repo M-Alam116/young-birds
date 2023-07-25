@@ -11,8 +11,7 @@ export default function Tokenomics() {
                 <h1>$SOAR Tokenomics</h1>
                 <p>100,000,000,000 $SOAR</p>
                 <div className={classes.chart}>
-                    {/* <PieChart /> */}
-
+                    <PieChart />
                     <div className={classes.content}>
                         <div>
                             <h2>Total Supply</h2>
