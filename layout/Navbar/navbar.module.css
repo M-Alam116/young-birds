@@ -64,7 +64,7 @@
 
 .verticalLinks {
   position: absolute;
-  top: 6.3rem;
+  top: 4.5rem;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@
 
 @media only screen and (max-width: 950px) {
   .navbar {
-    padding: 1rem 20px;
+    padding: 0rem 20px;
   }
 
   .links {
@@ -102,4 +102,8 @@
   .connectBtn {
     display: none;
   }
+
+  .logo {
+  margin-right: 2.5rem;
+}
 }

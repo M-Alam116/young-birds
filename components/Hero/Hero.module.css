@@ -29,7 +29,7 @@
 
 .content h1 {
   font-family: "Inter";
-  width: 55vw;
+  width: 45rem;
   font-size: 70px;
   font-weight: 800;
   text-align: center;
@@ -69,25 +69,29 @@
   border-radius: 15px;
 }
 
-@media only screen and (max-width: 850px) {
-  .content h1 {
-    width: 100%;
-  }
-}
-
 @media only screen and (max-width: 730px) {
   .content h1 {
     font-size: 50px;
+    width: 30rem;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 470px) {
   .content h1 {
     font-size: 40px;
+    width: 100%;
+    padding: 0 1rem;
   }
 
   .image {
     width: 100%;
     height: 210px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .content h1 {
+    padding: 0;
+    font-size: 35px;
   }
 }
