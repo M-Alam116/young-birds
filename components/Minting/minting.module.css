@@ -7,7 +7,7 @@
 
 .minting {
   width: 40%;
-  margin-top: 9rem;
+  margin-top: 5rem;
 }
 
 .heading {
@@ -216,7 +216,7 @@
   }
 
   .heroImage {
-    margin: 3rem 0;
+    margin: 2rem 0;
     padding: 0 1.7rem;
     transform: rotate(0deg);
   }
@@ -244,4 +244,9 @@
   .batches {
     width: 100%;
   }
+
+  .heroImage {
+    padding: 0 1.3rem;
+  }
+
 }
