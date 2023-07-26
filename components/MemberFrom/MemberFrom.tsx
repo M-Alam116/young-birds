@@ -30,7 +30,7 @@ export default function MemberFrom() {
                         <p>Web3 VCs & Hedge Funds</p>
                     </div>
                 </div>
-                <p>Our members are the founders and executives of renowned
+                <p className={classes.para}>Our members are the founders and executives of renowned
                     companies, driving influence and innovation in their respective fields.
                     They have a cumulative experience of advising and working with over 130 companies,
                     including Blizzard, TikTok, Warner Music Group, BCG, PWC, BAYC, Azuki, DeGods, Doodles,

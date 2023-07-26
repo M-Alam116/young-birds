@@ -16,7 +16,7 @@ export default function MemberBenefits() {
                                 </div>
                                 <h2>Networking via YBC Concierge Service</h2>
                             </div>
-                            <p>
+                            <p  className={classes.para2}>
                                 Meet like-minded entrepreneurs, investors, and industry experts from all around the world. On average, 70% of YBC members received help from the YBC network.
                             </p>
                         </div>
@@ -27,7 +27,7 @@ export default function MemberBenefits() {
                                 </div>
                                 <h2 className={classes.text}>Access to Exclusive Events</h2>
                             </div>
-                            <p>
+                            <p className={classes.para}>
                                 Attend YBC parties, side events at major
                                 Web3 conferences and more.
                             </p>
@@ -43,7 +43,7 @@ export default function MemberBenefits() {
                                 <h2>Access to Private
                                     Telegram Groupchat</h2>
                             </div>
-                            <p>
+                            <p className={classes.para3}>
                                 Join the private YBC Telegram group chat
                                 for verified members.
                             </p>
@@ -55,7 +55,7 @@ export default function MemberBenefits() {
                                 </div>
                                 <h2>Business & Individual Recognition</h2>
                             </div>
-                            <p>
+                            <p className={classes.para}>
                                 Seize opportunities to promote your business and yourself to YBC members and networks.
                             </p>
                         </div>

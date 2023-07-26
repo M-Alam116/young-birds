@@ -54,8 +54,8 @@
 
 .content {
   border: 1px solid rgba(36, 118, 255, 1);
-  width: 100%;
-  max-width: 320px;
+  /* width: 100%; */
+  width: 350px;
   height: 360px;
   padding: 1rem 1.5rem;
   border-radius: 22px;
@@ -86,8 +86,8 @@
       font-size: 18px;
     }
 
-    .content {
+    /* .content {
         width: 100%;
         height: auto;
-      }
+      } */
   }

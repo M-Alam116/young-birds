@@ -83,6 +83,10 @@
   height: 320px;
 }
 
+.para {
+  padding: 0 4rem;
+}
+
 @media screen and (max-width: 710px) {
   .container {
     margin-top: 8rem;
@@ -112,6 +116,10 @@
   .details h1 {
     font-size: 50px;
     margin-top: 3.5rem;
+  }
+
+  .para {
+    padding: 0;
   }
 }
 

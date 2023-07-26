@@ -24,7 +24,7 @@ export default function Roadmap() {
                         <div className={classes.content}>
                             <li>Re-launching YBC with upgraded features and more</li>
                             <li>YBC 1st Batch</li>
-                            <li>Launch YBC Staking Rewards
+                            <li style={{padding: '0 3rem'}}>Launch YBC Staking Rewards
                                 & Concierge Service</li>
                             <li>$SOAR Listings & Global Event</li>
                             <li>Private YBC Parties</li>

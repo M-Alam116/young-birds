@@ -147,6 +147,11 @@
 .batchesControl {
   display: flex;
   gap: 1rem;
+  align-items: center;
+}
+
+.icons {
+  cursor: pointer;
 }
 
 .batchesControl span {

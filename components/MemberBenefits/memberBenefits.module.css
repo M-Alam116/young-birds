@@ -65,6 +65,7 @@
   text-align: right;
   color: rgba(126, 143, 154, 1);
   margin-top: 1.3rem;
+  /* width: 20rem; */
 }
 
 .service2 {
@@ -95,6 +96,7 @@
   text-align: left;
   color: rgba(126, 143, 154, 1);
   margin-top: 1.3rem;
+  /* width: 20.5rem; */
 }
 
 .top {
@@ -102,6 +104,14 @@
   flex-direction: column;
   /* justify-content: center; */
   align-items: end;
+}
+
+.top h2 {
+  margin-top: 1rem;
+}
+
+.bottom h2 {
+  margin-top: 1rem;
 }
 
 .bottom {
@@ -113,6 +123,18 @@
 
 .text {
   width: 78%;
+}
+
+.para {
+  padding-right: 6rem;
+}
+
+.para2 {
+  padding-left: 1rem;
+}
+
+.para3 {
+  padding-left: 7rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -183,14 +205,40 @@
   .top {
     width: 100%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    padding-left: 1rem;
     gap: 1rem;
   }
-  
+
+  .top h2 {
+    text-align: left;
+  }
+
   .bottom {
     width: 100%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
+    padding-left: 1rem;
+  }
+
+  .bottom h2 {
+    text-align: left;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .para {
+    padding-right: 0rem;
+  }
+  
+  .para2 {
+    padding-left: 0rem;
+  }
+  
+  .para3 {
+    padding-left: 0rem;
   }
 }

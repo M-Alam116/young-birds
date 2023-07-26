@@ -29,7 +29,7 @@ export default function MemberRewards() {
                             <Image src='/images/rewards.png' width={45} height={45} alt='rewards' />
                         </div>
                         <h2>Platform Rewards</h2>
-                        <p>YBC holders will receive 1%
+                        <p className={classes.para}>YBC holders will receive 1%
                             of the platform's revenue.</p>
                     </div>
                     <div className={classes.rewards}>
